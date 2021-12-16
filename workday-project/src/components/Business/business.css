@@ -1,0 +1,46 @@
+.business-container {
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 14rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+}
+
+.business-name {
+    font-size: 1.25rem;
+}
+
+.business-zip {
+
+}
+
+.business-distance {
+
+}
+
+.business-rating {
+    display: flex;
+    margin-bottom: 0.75rem;
+}
+
+.add-to-favorites {
+    display: flex;
+    justify-content: center;
+}
+
+.favorites-button {
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 12rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: var(--secondary);
+    color: var(--bg-color);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+}
